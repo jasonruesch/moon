@@ -2,9 +2,8 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'hello',
-  template: `<h1>Hello {{name}}!</h1>`,
+  template: `<img src="assets/moon.png" />`,
   styles: [`h1 { font-family: Lato; }`]
 })
-export class HelloComponent  {
-  @Input() name: string;
+export class MoonComponent  {
 }
